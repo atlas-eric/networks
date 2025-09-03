@@ -1,5 +1,13 @@
 # Finality Provider Information Registry
 
+> **⚠️  Important**: Phase-1 registrations of finality providers are now
+> closed and this guide is a legacy one.
+> Finality providers that intend to register to the Babylon Genesis network
+> (phase-2 mainnet) -- either Phase-1 finality providers or new ones --
+> should follow the
+> [finality provider operation
+> guide](https://github.com/babylonlabs-io/finality-provider/blob/release/v1.x/docs/finality-provider-operation.md)
+
 This is the finality provider registration guide for the first phase of the
 Babylon Bitcoin staking mainnet.
 
@@ -56,7 +64,7 @@ is registered. Otherwise, the application will be rejected, no exception.
 
 Ineligible finality providers can still participate in this phase by accepting
 Bitcoin stakes from their users. The
-[Babylon Bitcoin Staking indexer](https://github.com/babylonchain/staking-indexer)
+[Babylon Bitcoin Staking indexer](https://github.com/babylonlabs-io/babylon-staking-indexer)
 will identify such delegations and display the finality providers' EOTS
 public key in the web application to acknowledge their existence. However:
 
